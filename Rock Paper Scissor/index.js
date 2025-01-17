@@ -34,8 +34,8 @@ function checkResult(number)
     var randomNumer = Math.floor(Math.random()*3)+1;
     let userResponse = hands[number-1].name;
     let computerResponse = hands[randomNumer-1].name;
-    alert(userResponse)
-    alert(computerResponse)
+    alert("You choose "+userResponse)
+    alert("Computer choose "+computerResponse)
     let userWin = 0;
     let computerWin = 0;
     let tie = 0;
