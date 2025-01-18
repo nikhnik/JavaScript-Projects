@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    font-family: monospace;
+  color: darkcyan;
+}
+
+.container {
+    margin: 150px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#title{
+    text-align: center;
+    font-size: 32px;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+}
+.temp-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 20px;
+}
+label{
+    font-weight: bold;
+}
+.input{
+    padding: 5px;
+    width: 220px;
+    background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: darkgreen;
+  font-size: 18px;
+}
+
+.input::placeholder{
+    color: darkgray;
+}
